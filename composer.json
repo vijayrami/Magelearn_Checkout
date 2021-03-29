@@ -1,0 +1,25 @@
+{
+    "name": "magelearn/module-checkout",
+    "description": "Display Old Price, Discount Percentage and Saved Amount to Minicart Products.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "vijaymrami@gmail.com",
+            "name": "vijay rami"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\Checkout\\": ""
+        }
+    }
+}

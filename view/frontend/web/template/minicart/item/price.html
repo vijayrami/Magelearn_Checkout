@@ -1,0 +1,18 @@
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<div class="price-container">
+    <span class="price-wrapper" data-bind="html: price"></span>
+    <!-- ko if: item.regular_price_value != item.product_price_value -->
+    <div class="old-price-wrapper" style="display:flex;">
+        <span class="old-price">
+            <span class="price" data-bind="html: item.regular_price"></span>
+        </span>
+        <span class="discount-percent" style="margin-left: 7px" data-bind="html: item.discount_percentage + '% off'"></span>
+    </div>
+    <span class="saved-amount" data-bind="html: 'Save: ' + item.saved_amount"></span>
+    <!-- /ko -->
+</div>
