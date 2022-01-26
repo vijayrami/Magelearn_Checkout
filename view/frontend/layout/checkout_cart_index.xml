@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.cart.form">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">Magelearn_Checkout::cart/form.phtml</argument>
+            </action>
+        </referenceBlock>
+        <referenceBlock name="additional.product.info">
+            <block class="Magelearn\Checkout\Block\CartItemAdditionalBlock"
+                   name="magelearn.checkout.cart.item.additional" template="Magelearn_Checkout::product_additional.phtml" before="-">
+            </block>
+        </referenceBlock>
+    </body>
+</page>

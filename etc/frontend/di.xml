@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Checkout\CustomerData\Cart">
+        <plugin name="magelearn_advancecart_grand_total" type="Magelearn\Checkout\Plugin\Checkout\CustomerData\Cart"/>
+    </type>
+    <type name="Magento\Checkout\CustomerData\DefaultItem">
+        <plugin name="AddAttPlug" type="Magelearn\Checkout\Plugin\DefaultItem" disabled="false" sortOrder="10"/>
+    </type>
+</config>
