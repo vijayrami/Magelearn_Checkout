@@ -11,5 +11,23 @@
                    name="magelearn.checkout.cart.item.additional" template="Magelearn_Checkout::product_additional.phtml" before="-">
             </block>
         </referenceBlock>
+        <referenceBlock name="checkout.cart.totals">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">                        
+                            <item name="block-totals" xsi:type="array">  
+                                <item name="children" xsi:type="array">  
+                                 	<item name="checkout-mycustomtext" xsi:type="array">
+                                            <item name="component" xsi:type="string">Magelearn_Checkout/js/view/checkout-mycustomtext</item>
+                                            <item name="config" xsi:type="array">
+                                                <item name="sortOrder" xsi:type="string">0</item>
+                                            </item>
+                                    </item>
+                                </item>
+                            </item>                        
+                    </item>
+                </argument>
+            </arguments>    
+        </referenceBlock>
     </body>
 </page>
