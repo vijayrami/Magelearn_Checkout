@@ -28,7 +28,7 @@ you need to Add special price from admin.
 [![Home-Page.png](https://i.postimg.cc/PJ68GQQC/Home-Page.png)](https://postimg.cc/dZy0rdXF)
 
 ###### Cart
-[![Shopping-Cart-1.png](https://i.postimg.cc/nVRbg0PY/Shopping-Cart-1.png)](https://postimg.cc/9z7nqtVr)
+[![Shopping-Cart-2.png](https://i.postimg.cc/vH2GZTd1/Shopping-Cart-2.png)](https://postimg.cc/D8G9C20F)
 
 ###### Checkout
 [![Checkout-1.png](https://i.postimg.cc/VLpdj6GP/Checkout-1.png)](https://postimg.cc/F7brv9XT)
