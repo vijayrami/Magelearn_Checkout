@@ -13,7 +13,7 @@ Display Old Price, Discount Percentage and Saved Amount to Minicart Products.
  
  -- Display Old Price on checkout/cart page at cart items in table display.
  
- -- Display total savings on checkout page below order total.
+ -- Display total savings on checkout/cart and checkout page below order total.
  
  -- Display additional product attribute (manufacturer name) on checkout/cart page in cart items table display.
  
