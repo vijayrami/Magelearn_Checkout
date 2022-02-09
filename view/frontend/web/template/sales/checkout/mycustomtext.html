@@ -1,6 +1,8 @@
+<!-- ko if: cart().saved_amount_no_html > 0  -->
 <div class="subtotal checkout cart savings">
 	<span class="label">
 	        <!-- ko i18n: 'Your Total Savings:' --><!-- /ko -->
 	</span>
 	<span class="price-wrapper" data-bind="html: getTotalSavings()" style="font-weight:bold;"></span>
 </div>
+<!-- /ko -->
