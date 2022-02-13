@@ -13,16 +13,38 @@
                                         <item name="displayArea" xsi:type="string">subtotalContainer</item>
                                     </item>
                                     <item name="children" xsi:type="array">
-                                        <item name="subtotal" xsi:type="array">
+                                        <item name="subtotalextra" xsi:type="array">
                                             <item name="component" xsi:type="string">Magento_Checkout/js/view/checkout/minicart/subtotal/totals</item>
                                             <item name="config" xsi:type="array">
                                                 <item name="template" xsi:type="string">Magelearn_Checkout/minicart/extra</item>
                                             </item>
                                             <item name="children" xsi:type="array">
-                                                <item name="subtotal.totals" xsi:type="array">
+                                                <item name="subtotalextra.save" xsi:type="array">
                                                     <item name="component" xsi:type="string">Magento_Checkout/js/view/checkout/minicart/subtotal/totals</item>
                                                     <item name="config" xsi:type="array">
                                                         <item name="template" xsi:type="string">Magelearn_Checkout/minicart/extra/save</item>
+                                                    </item>
+                                                </item>
+                                            </item>
+                                        </item>
+                                    </item>
+                                </item>
+                                <item name="discount.container" xsi:type="array">
+                                    <item name="component" xsi:type="string">uiComponent</item>
+                                    <item name="config" xsi:type="array">
+                                        <item name="displayArea" xsi:type="string">subtotalContainer</item>
+                                    </item>
+                                    <item name="children" xsi:type="array">
+                                        <item name="subtotal" xsi:type="array">
+                                            <item name="component" xsi:type="string">Magento_Checkout/js/view/checkout/minicart/subtotal/totals</item>
+                                            <item name="config" xsi:type="array">
+                                                <item name="template" xsi:type="string">Magelearn_Checkout/minicart/discount</item>
+                                            </item>
+                                            <item name="children" xsi:type="array">
+                                                <item name="subtotal.totals" xsi:type="array">
+                                                    <item name="component" xsi:type="string">Magento_Checkout/js/view/checkout/minicart/subtotal/totals</item>
+                                                    <item name="config" xsi:type="array">
+                                                        <item name="template" xsi:type="string">Magelearn_Checkout/minicart/discount/inner</item>
                                                     </item>
                                                 </item>
                                             </item>

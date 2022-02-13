@@ -1,9 +1,10 @@
-<!-- ko if: (cart().saved_amount_no_html > 0) -->
+<!-- ko if: (cart().discount_amount_no_html < 0) -->
 <div class="subtotal">
     <span class="label">
-        <!-- ko i18n: 'Total Save' --><!-- /ko -->
+        <!-- ko i18n: 'Discount' --><!-- /ko -->
     </span>
-	<!-- ko foreach: elems -->
+
+    <!-- ko foreach: elems -->
     <!-- ko template: getTemplate() --><!-- /ko -->
     <!-- /ko -->
 </div>

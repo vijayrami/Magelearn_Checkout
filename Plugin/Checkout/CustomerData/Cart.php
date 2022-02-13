@@ -37,6 +37,16 @@ class Cart
  
         return $this->quote;
     }
+    
+    protected function getDiscountAmount()
+    {
+        $discountAmount = 0;
+        foreach($this->getQuote()->getAllVisibleItems() as $item){
+            $discountAmount += ($item->getDiscountAmount() ? $item->getDiscountAmount() : 0);
+        }
+        return $discountAmount;
+    }
+    
     /**
      * Add grand total to result
      *
@@ -57,6 +67,9 @@ class Cart
                 }
             }
             $result['saved_amount_no_html'] = $savedAmount;
+            
+            $result['discount_amount_no_html'] = -$this->getDiscountAmount();
+            $result['discount_amount'] = $this->checkoutHelper->formatPrice(-$this->getDiscountAmount());
             
             $result['saved_amount'] = $this->checkoutHelper->formatPrice($savedAmount);
             
