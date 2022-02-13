@@ -7,6 +7,8 @@ Display Old Price, Discount Percentage and Saved Amount to Minicart Products.
  
  -- Display Total saving amount in Minicart
  
+ -- Display Discount amount in Minicart
+ 
  -- Display New column (Save) on checkout cart page and display saving amount for cart itemns.
  
  -- Display Old Price on checkout page at cart items in sidebar.
