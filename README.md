@@ -29,6 +29,8 @@ you need to Add special price from admin.
 ###### Minicart
 [![Home-Page.png](https://i.postimg.cc/PJ68GQQC/Home-Page.png)](https://postimg.cc/dZy0rdXF)
 
+[![Shopping-Cart.png](https://i.postimg.cc/q75Zj8jq/Shopping-Cart.png)](https://postimg.cc/B82gv1Wf)
+
 ###### Cart
 [![Shopping-Cart-2.png](https://i.postimg.cc/vH2GZTd1/Shopping-Cart-2.png)](https://postimg.cc/D8G9C20F)
 
