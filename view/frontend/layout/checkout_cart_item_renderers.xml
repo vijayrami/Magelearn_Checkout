@@ -5,7 +5,7 @@
 		<!-- override checkout cart item template -->
 		<referenceBlock name="checkout.cart.form">
 			<action method="setOverriddenTemplates">
-				<argument xsi:type="array">
+				<argument name="jsLayout" xsi:type="array">
 					<!-- list override templates -->
 					<item name="default" xsi:type="string">Magelearn_Checkout::cart/item/default.phtml</item>
 					<item name="simple" xsi:type="string">Magelearn_Checkout::cart/item/default.phtml</item>
